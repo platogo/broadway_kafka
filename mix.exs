@@ -1,7 +1,7 @@
 defmodule BroadwayKafka.MixProject do
   use Mix.Project
 
-  @version "0.1.3"
+  @version "0.1.4-platogo"
   @description "A Kafka connector for Broadway"
 
   def project do
@@ -27,7 +27,7 @@ defmodule BroadwayKafka.MixProject do
   defp deps do
     [
       {:broadway, "~> 0.6.0"},
-      {:brod, "~> 3.9.2"},
+      {:brod, "~> 3.14"},
       {:ex_doc, ">= 0.19.0", only: :docs}
     ]
   end
